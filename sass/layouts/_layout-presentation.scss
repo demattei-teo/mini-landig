@@ -1,0 +1,13 @@
+@use '/sass/general/variables' as *;
+
+.layout-presentation {
+  .container {
+    display: grid;
+    padding: 1.5rem 1.5rem;
+    grid-template-columns: 1fr 0.8fr;
+    justify-self: center;
+    justify-items: flex-end;
+    align-items: center;
+    margin: 0 auto;
+  }
+}

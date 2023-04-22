@@ -1,0 +1,16 @@
+@use '/sass/general/variables' as *;
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-self: end;
+  margin-right: 4rem;
+  gap: 4.6875rem;
+  &-link {
+    font-family: $font-montserrat;
+    font-size: 1.1875rem;
+    font-weight: $font-bold;
+    letter-spacing: 0.1rem;
+  }
+}

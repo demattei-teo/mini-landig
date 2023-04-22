@@ -1,0 +1,59 @@
+@use '/sass/general/variables' as *;
+@use '/sass/general/variables' as *;
+
+.card {
+  position: relative;
+  width: 25.7512rem;
+  height: 35.8381rem;
+  &-img {
+    width: 25.7512rem;
+    height: 35.8381rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: $linear-gradiend-card;
+    border-radius: 2.8125rem;
+    position: absolute;
+    inset: 0;
+
+    &-detail {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 3.25rem;
+      text-align: center;
+      justify-self: center;
+      justify-items: center;
+      align-items: center;
+      row-gap: 10px;
+    }
+    &-text {
+      font-size: 18px;
+      font-family: $font-montserrat;
+      letter-spacing: 0.0688rem;
+    }
+    &-response {
+      font-size: 1.625rem;
+      font-family: $font-montserrat;
+      font-weight: $font-bold;
+      text-shadow: 1px 1px 9px #fff;
+    }
+  }
+}
+
+.skewed-1 {
+  width: 22.7512rem;
+  height: 32.8381rem;
+  z-index: -1;
+  transform: translateX(-10%) rotate(-12deg);
+  opacity: 0.5;
+}
+.skewed-2 {
+  width: 22.7512rem;
+  height: 30.8381rem;
+  z-index: -2;
+  transform: translateX(-15%) translateY(10%) rotate(-18deg);
+  opacity: 0.2;
+}
+
+/* 20.88ETH */

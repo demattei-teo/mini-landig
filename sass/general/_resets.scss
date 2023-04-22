@@ -1,0 +1,57 @@
+@use '/sass/general/variables' as *;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 220rem;
+  min-height: 100vh;
+  font-family: 'inter';
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffff;
+  background-color: $background-color;
+  gap: 3rem;
+}
+
+ul,
+ol li,
+span,
+h1,
+h2,
+h3,
+h4,
+p {
+  list-style: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+button:focus {
+  outline: 0.125rem solid #4d90fe;
+}
